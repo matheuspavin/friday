@@ -1,11 +1,11 @@
 'use strict';
 const router = require('express').Router();
-const ordersService = require('../services/addressService');
+const addressService = require('../services/addressService');
 
 router.post('/', async function (req, res, next) {
-    const user = req.user;
+    var address = req.body;
     try {
-        let result = await addressService.getAll();
+        let result = await addressService.setAddress(address.address);
         return res.json(result);
     } catch (error) {
         next(error);
