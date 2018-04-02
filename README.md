@@ -6,6 +6,8 @@
 
 **This project is intended to run on unix systems**
 
+**This project run on Javascript, with NodeJS. To run properly, install the npm(Node package manager) and after the Node. The steps are on the following URL:  https://www.npmjs.com/ **
+
 1. In the main folder run the install.sh script.
 1. Run the newly created run.sh file.
 
