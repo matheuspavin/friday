@@ -1,0 +1,45 @@
+{
+	"id": "538f582c-5de3-47d3-8841-aef4fe95c280",
+	"name": "FRI:DAY",
+	"description": "",
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [
+		"97048e6e-0098-4bd1-bb34-d23d0fa33d46"
+	],
+	"folders_order": [],
+	"folders": [],
+	"requests": [
+		{
+			"id": "97048e6e-0098-4bd1-bb34-d23d0fa33d46",
+			"name": "Get Address",
+			"url": "http://localhost:3000/address",
+			"description": "",
+			"data": [
+				{
+					"key": "address",
+					"value": "200 brodway",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		}
+	]
+}
